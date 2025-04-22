@@ -12,11 +12,6 @@ This repository includes data extracted and processed from the following textboo
 
 All books are part of the [AIM Open Math Textbook Initiative](https://textbooks.aimath.org/) and are distributed under suitable open licenses.
 
-## Repository Structure
-
-
-cm-corpus/ │ ├── data/ │ ├── abstract_algebra/ │ ├── linear_algebra/ │ ├── discrete_math/ │ └── combined/ │ ├── outputs/ │ ├── conll/ # CoNLL-U files for each book │ ├── csv_tsv/ # SpaCy output in CSV/TSV │ ├── noun_lists/ # Most frequent nouns │ ├── adj_noun_pairs/ # Adjective–noun pairs │ └── compounds/ # Compound noun phrases │ ├── scripts/ │ └── *.py # Preprocessing and analysis scripts │ ├── stats/ │ └── corpus_stats.json # Token counts, type-token ratios, etc. │ └── README.md
-
 ## Linguistic Features Extracted
 
 Each book was processed with `spaCy` using the `en_core_web_sm` model. Key outputs include:
